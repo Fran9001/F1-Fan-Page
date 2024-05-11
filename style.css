@@ -420,6 +420,10 @@ td:first-child {
 }
 
 @media screen and (max-width: 955px) {
+  .main {
+    width: 90%;
+  }
+
   .grid-team-container {
     grid-template-rows: 1fr 1fr;
     grid-template-columns: 1fr 1fr;
