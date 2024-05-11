@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="page-images/favicon.png"
+    />
+    <title>F1</title>
+</head>
+<body>
+    <nav class="navbar">
+        <div class="navbar-logo-container">
+          <a href="index.html"
+            ><img
+              class="navbar-logo"
+              src="page-images/F1.svg.png"
+              alt="page-logo"
+          /></a>
+        </div>
+        <input id="menu-toggle" type="checkbox" />
+        <label class="menu-button-container" for="menu-toggle">
+          <div class="menu-button"></div>
+        </label>
+        <ul class="menu">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="index.html#section-teams">Teams</a></li>
+          <li><a class="login-button" href="#">Login</a></li>
+        </ul>
+      </nav>
+      <main class="contact-main">
+        <div class="container" id="login-form">
+          <form class="form form-login">
+            <div class="descr">Log In</div>
+            <div class="input">
+                <input required="" autocomplete="off" name="email" type="email">
+                <label for="email">E-mail</label>
+            </div>
+      
+            <div class="input">
+                <input required="" name="password" type="password"></input>
+                <label for="password">Password</label>
+            </div>
+            <button>Login →</button>
+          </form>
+      </div>
+
+        <div class="container" id="contact-form">
+          <form class="form">
+            <div class="descr">Contact us</div>
+            <div class="input">
+                <input required="" autocomplete="off" type="text">
+                <label for="name">Name</label>
+            </div>
+      
+            <div class="input">
+                <input required="" autocomplete="off" name="email" type="text">
+                <label for="email">E-mail</label>
+            </div>
+      
+            <div class="input">
+                <textarea required="" cols="30" rows="1" id="message"></textarea>
+                <label for="message">Message</label>
+            </div>
+            <button>Send message →</button>
+          </form>
+      </div>
+      </main>
+      <footer class="footer">
+        © 2024 Fran F1
+        <span class="contact"><a href="#">Contact Us</a></span>
+      </footer>
+</body>
+</html>
