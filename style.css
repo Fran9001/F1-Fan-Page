@@ -199,6 +199,7 @@ body {
     url(page-images/header-img.jpg);
   min-width: 100%;
   background-position: center;
+  background-size: cover;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -511,6 +512,7 @@ button {
   background-image: url(teams-images/mercedes/hamilton.avif);
   min-width: 100%;
   background-position: top;
+  background-size: cover;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -520,6 +522,7 @@ button {
   background-image: url(teams-images/mercedes/russell.avif);
   min-width: 100%;
   background-position: top;
+  background-size: cover;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -529,6 +532,7 @@ button {
   background-image: url(teams-images/ferrari/leclerc.avif);
   min-width: 100%;
   background-position: top;
+  background-size: cover;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -538,6 +542,7 @@ button {
   background-image: url(teams-images/ferrari/sainz.avif);
   min-width: 100%;
   background-position: top;
+  background-size: cover;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -547,6 +552,7 @@ button {
   background-image: url(teams-images/red-bull/verstappen.avif);
   min-width: 100%;
   background-position: top;
+  background-size: cover;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -556,6 +562,7 @@ button {
   background-image: url(teams-images/red-bull/perez.avif);
   min-width: 100%;
   background-position: top;
+  background-size: cover;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -565,6 +572,7 @@ button {
   background-image: url(teams-images/mclaren/norris.avif);
   min-width: 100%;
   background-position: top;
+  background-size: cover;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -574,6 +582,7 @@ button {
   background-image: url(teams-images/mclaren/piastri.avif);
   min-width: 100%;
   background-position: top;
+  background-size: cover;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -583,6 +592,7 @@ button {
   background-image: url(teams-images/aston-martin/alonso.avif);
   min-width: 100%;
   background-position: top;
+  background-size: cover;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -592,6 +602,7 @@ button {
   background-image: url(teams-images/aston-martin/stroll.avif);
   min-width: 100%;
   background-position: top;
+  background-size: cover;
   display: flex;
   justify-content: center;
   align-items: center;
